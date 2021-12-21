@@ -1,0 +1,11 @@
+$primary: #217262;
+$btn-font-weight: bold;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.fw-semibold {
+    font-weight: 600;
+}
