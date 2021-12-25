@@ -6,6 +6,17 @@ $btn-font-weight: bold;
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.fw-medium {
+    font-weight: 500;
+}
 .fw-semibold {
     font-weight: 600;
 }
+.object-cover {
+    object-fit: cover;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: rgba(#79ED43,0.08);
+}
+
