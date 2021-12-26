@@ -198,6 +198,30 @@
 }
 
 
+.about-heading::after{
+    content: '';
+    background: #79ED43;
+    width: 242px;
+    position: absolute;
+    height: 12px;
+    bottom: -24px;
+    left: 0;
+}
+
+// navbar
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: black;
+    color: #217262;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.active{
+    border-bottom: 4px solid #79ED43;
+}
+
 
 // Media Query
 
